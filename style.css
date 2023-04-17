@@ -1,0 +1,53 @@
+* {
+    font-family: 'Lucida Console', Courier, monospace;
+    color: #000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-top: 50px;
+    font-size: 2.5em;
+}
+
+.description {
+    text-align: center;
+    font-size: 1.25em;
+    margin-top: 10px;
+}
+
+
+.spin {
+    display: inline-block;
+    height: 1.2em;
+    margin-left: 15px;
+}
+
+.links {
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 0;
+    list-style: none;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
